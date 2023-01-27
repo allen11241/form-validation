@@ -1,0 +1,63 @@
+input:invalid {
+    border: 2px solid black;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 8rem;
+}
+
+#email {
+    width: 12rem;
+}
+
+input:valid {
+    border: 2px solid green;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid black;
+    padding: 3rem;
+}
+
+#btn-submit {
+    width: 8rem;
+    height: 2rem;
+}
+
+#btn-submit:hover {
+    cursor: pointer;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.container {
+    display: flex;
+}
+
+.error-message-red {
+    display: inline-block;
+    margin-left: 1rem;
+    color: red;
+}
+
+.error-message-green {
+    display: inline-block;
+    margin-left: 1rem;
+    color: green;
+}
